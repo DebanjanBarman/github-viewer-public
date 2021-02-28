@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300,400,700);
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Exo 2", sans-serif;
+  color: #333;
+}
+
+.card {
+  position: relative;
+  width: 315px; /* Remove for full width */
+  height: 450px; /* Remove for full width */
+  margin: 30px auto;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+}
+.card-header {
+  position: relative;
+  height: 220px;
+  background-size: cover;
+  background-position: top;
+}
+
+.card-body {
+  text-align: center;
+  padding-left: 10px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.job-title {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+  color: #919191;
+}
+
+.bio {
+  font-size: 14px;
+  color: #7b7b7b;
+  font-weight: 300;
+  margin: 10px auto;
+  line-height: 20px;
+}
+
+.card-footer {
+  position: absolute; /* Fixed card width/height */
+
+  left: 0;
+  width: 100%;
+  bottom: 20px;
+}
+.stat {
+  box-sizing: border-box;
+  width: calc(100% / 3);
+  float: left;
+  text-align: center;
+  border-left: 1px solid #ebebeb;
+}
+.stat .label {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #95989a;
+}
+
+.stat .value {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.noresult {
+  margin-top: 20%;
+  margin-left: 45%;
+}
